@@ -8,6 +8,7 @@ import { combineReducers } from 'redux'
                 return [ ...state, action.value ]
             case 'REMOVE_CAR':
                 const newState = [ ...state ]
+                //delete return and input the following
                 newState.splice(action.value, 1)
                 return newState
             default:

@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core'
 import DeleteIcon from '@material-ui/icons/Delete'
 import Chart from './Chart'
-import Total from './Total'
+import Total from '../containers/Total'
 import AddCar from '../containers/AddCar'
  
 const Dashboard = (props) => {
